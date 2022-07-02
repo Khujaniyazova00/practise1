@@ -1,0 +1,180 @@
+/* General css boshlandi */
+
+@font-face {
+  font-family: "OS";
+  src: url("./assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+  font-family: "OSC";
+  src: url("./assets/fonts/OpenSans-CondLight.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: OS, sans-serif;
+}
+
+.text_red {
+  color: #de2e54;
+}
+
+.text_black {
+  color: #222;
+}
+
+.text_white {
+  color: #fff;
+}
+
+.btn_red,
+.btn_transparent:hover {
+  border: 2px solid #de2e54;
+  background-color: #de2e54;
+  cursor: pointer;
+}
+
+.btn_red,
+.btn_transparent {
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-family: OSC, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 150%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn_red:hover {
+  background-color: #fff;
+  color: #de2e54;
+  cursor: pointer;
+}
+
+.btn_transparent {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.title {
+  font-family: OSC, sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 120%;
+}
+
+/* General css tugadi */
+
+/* Navbar boshlandi */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 10rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+nav a {
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #de2e54;
+}
+
+.logo_text {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.logo_text:hover {
+    color: #de2e54;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 12rem;
+}
+
+/* Navbar tugadi */
+
+/* Hero boshlandi */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 10rem;
+  background-color: #0eb4c1;
+}
+
+.hero .left {
+  padding: 8rem 0;
+}
+
+.hero p.text_white {
+  font-size: 1.1rem;
+  line-height: 150%;
+  margin: 1rem 0 2.25rem 0;
+  width: 72%;
+}
+
+/* Hero tugadi */
+
+/* Services boshlandi */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 15rem;
+}
+
+.services .title {
+  margin-bottom: 3.5rem;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.service .service_text {
+  margin-left: 2rem;
+}
+
+.service h3 {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 120%;
+}
+
+.service p {
+  line-height: 150%;
+  color: #444444;
+}
+
+/* Services tugadi */
