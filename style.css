@@ -1,3 +1,6 @@
+html {
+  height: 2500px;
+}
 /* General css boshlandi */
 
 @font-face {
@@ -107,7 +110,7 @@ nav a:hover {
 }
 
 .logo_text:hover {
-    color: #de2e54;
+  color: #de2e54;
 }
 
 .logo {
@@ -178,3 +181,61 @@ nav a:hover {
 }
 
 /* Services tugadi */
+
+/*Contact boshlandi*/
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 32rem 4.7rem 32rem;
+  background-color: #0eb4c1;
+}
+
+.contact h2 {
+  /* width: 1440px;
+  height: 253px;
+  left: 1px;
+  top: 2117px;*/
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 120%;
+}
+
+/*Contact tugadi*/
+
+/*Footer boshlandi*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 10rem;
+  background-color: #222222;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  list-style: none;
+  margin: 2rem;
+}
+
+footer a {
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #de2e54;
+}
+
+/*Footer tugadi*/
