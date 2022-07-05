@@ -1,6 +1,3 @@
-html {
-  height: 2500px;
-}
 /* General css boshlandi */
 
 @font-face {
@@ -189,7 +186,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem 32rem 4.7rem 32rem;
+  padding: 4rem 0;
   background-color: #0eb4c1;
 }
 
@@ -219,7 +216,7 @@ footer ul {
 
 footer ul li {
   list-style: none;
-  margin: 2rem;
+  margin-right: 2rem;
 }
 
 footer a {
@@ -237,3 +234,63 @@ footer a:hover {
 }
 
 /*Footer tugadi*/
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+  nav, footer {
+    padding: 1rem 4rem;
+  }
+  .hero {
+    padding: 0 4rem;
+  }
+  .services {
+    padding: 4rem 7.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  nav, footer {
+    padding: 1rem 4rem;
+  }
+  nav .btn_red {
+    display: none;
+  }
+  .hero {
+    padding: 0 4rem;
+  }
+  .hero img {
+    width: 320px;
+  }
+  .hero p.text_white {
+    width: 100%;
+  }
+  .services {
+    padding: 2.4rem 5rem;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 481px) {
+  html {
+    font-size: 14px;
+  }
+  nav, footer {
+    padding: 1rem 4rem;
+  }
+  nav .btn_red {
+    display: none;
+  }
+  .hero {
+    padding: 0 4rem;
+  }
+  .hero img {
+    display: none;
+  }
+  .hero p.text_white {
+    width: 100%;
+  }
+  .services {
+    padding: 2.4rem 5rem;
+  }
+}
