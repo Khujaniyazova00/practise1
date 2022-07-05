@@ -236,7 +236,8 @@ footer a:hover {
 /*Footer tugadi*/
 
 @media only screen and (max-width: 1440px) and (min-width: 1025px) {
-  nav, footer {
+  nav,
+  footer {
     padding: 1rem 4rem;
   }
   .hero {
@@ -251,7 +252,8 @@ footer a:hover {
   html {
     font-size: 14px;
   }
-  nav, footer {
+  nav,
+  footer {
     padding: 1rem 4rem;
   }
   nav .btn_red {
@@ -273,12 +275,16 @@ footer a:hover {
 
 @media screen and (max-width: 767px) and (min-width: 481px) {
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
-  nav, footer {
+  nav,
+  footer {
     padding: 1rem 4rem;
   }
   nav .btn_red {
+    display: none;
+  }
+  nav .logo {
     display: none;
   }
   .hero {
@@ -290,7 +296,21 @@ footer a:hover {
   .hero p.text_white {
     width: 100%;
   }
+  .hero .left {
+    text-align: center;
+  }
   .services {
     padding: 2.4rem 5rem;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service .text_black {
+    text-align: center;
+  }
+  footer .logo {
+    display: none;
   }
 }
